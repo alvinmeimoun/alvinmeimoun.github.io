@@ -1,0 +1,82 @@
+$small-text-bp: 450px;
+$wrap-bp: 820px;
+.root {
+    background: rgb(171,198,245);
+    background: linear-gradient(344deg, rgba(171,198,245,1) 0%, rgba(218,227,243,1) 100%);
+    height: auto;
+    min-height: 200px;
+    z-index: 1001;
+    padding: 10px;
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.text-root {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.split {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 400;
+
+    @media (max-width: $small-text-bp) {
+        font-size: 20px;
+    }
+}
+
+.title {
+    font-size: 19px;
+    font-weight: 400;
+
+    @media (max-width: $small-text-bp) {
+        font-size: 14px;
+    }
+}
+
+.details {
+    font-size: 17px;
+    font-weight: 200;
+
+    @media (max-width: $small-text-bp) {
+        font-size: 12px;
+    }
+}
+
+.name, .title, .details {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links-root {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.links-root > * + * {
+    margin-left: 10px;
+}
+
+.name-title-part {
+    animation: fadeInLeft;
+}
+.details-part {
+    animation: fadeInRight;
+}
+
+.name-title-part, .details-part {
+    animation-duration: 0.5s;
+    @media (max-width: $wrap-bp) {
+        animation: fadeIn;
+    }
+}

@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "c0355fe7-2aac-440f-a59e-8f5c9aeec573"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -30,6 +33,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/animate.css/animate.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -99,6 +104,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/animate.css/animate.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.css",
               "src/styles.scss"
             ],
             "scripts": []

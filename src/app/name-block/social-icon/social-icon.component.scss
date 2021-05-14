@@ -1,0 +1,50 @@
+$background-size: 52px;
+
+.root {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    height: $background-size;
+    width: $background-size;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    display: none;
+}
+
+i {
+    font-size: 35px;
+    z-index: 12;
+    color: darkcyan;
+}
+
+a {
+    color: transparent;
+}
+
+.icon {
+    z-index: 12;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $background-size;
+    width: $background-size;
+}
+
+.root:hover {
+    .background {
+        background: #44444444;
+        display: inline;
+        animation: zoomIn;
+        animation-duration: 0.2s;
+        border-radius: 50%;
+    }
+
+    i {
+        animation: pulse;
+        animation-duration: 2s;
+    }
+}

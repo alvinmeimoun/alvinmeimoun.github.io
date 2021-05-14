@@ -1,0 +1,12 @@
+$fixed-header-size: 50px;
+
+.fixed-header {
+    position: fixed;
+    z-index: 1;
+    height: $fixed-header-size;
+    width: 100%;
+    background: black;
+}
+.app-name-block {
+    z-index: 101;
+}
