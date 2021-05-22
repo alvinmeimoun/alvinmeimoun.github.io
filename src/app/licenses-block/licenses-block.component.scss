@@ -1,0 +1,22 @@
+.root {
+    background: rgb(54,54,54);
+    background: linear-gradient(168deg, rgba(54,54,54,1) 0%, rgba(51,51,51,1) 100%);
+}
+
+.item-list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-title {
+    color: white;
+}
+
+app-license-item {
+    margin: 5px;
+    width: 250px;
+    max-width: 250px;
+    min-height: 100%;
+}

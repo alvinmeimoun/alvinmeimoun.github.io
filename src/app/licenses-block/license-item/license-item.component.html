@@ -1,0 +1,16 @@
+<div class="root" [class.clickable]="data.link" (click)="openLink(data.link)" >
+  <div class="logo">
+    <img [src]="'assets/' + data.logo" />
+  </div>
+  <div class="top-text">
+      <span class="title">{{ data.title }}</span>
+      <span class="company">{{ data.company }}</span>
+      <span class="level3">
+        <span *ngIf="data.curriculumPeriod">{{ 'Formation : ' + data.curriculumPeriod }}</span>
+        <span *ngIf="data.graduationDate">{{ 'Diplôme : ' + data.graduationDate }}</span>
+      </span>
+  </div>
+  <div class="bottom-content" *ngIf="data.description">
+      <span class="description">{{ data.description }}</span>
+  </div>
+</div>

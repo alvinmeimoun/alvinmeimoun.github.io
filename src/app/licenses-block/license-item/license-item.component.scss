@@ -1,0 +1,70 @@
+.root {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo top-text"
+    "bottom-content .";
+
+  background: #e6ecff;
+  border-radius: 10px;
+  border: white 1px solid;
+  padding: 5px;
+  height: 100%;
+}
+
+.logo {
+  grid-area: logo;
+
+  img {
+      width: 70px;
+      height: auto;
+      margin-right: 5px;
+  }
+}
+
+.top-text {
+  grid-area: top-text;
+
+  .title {
+      font-size: 13px;
+      color: black;
+  }
+
+  .company {
+      font-size: 11px;
+      color: #111111;
+  }
+
+  .level3 {
+      font-size: 9px;
+      font-style: italic;
+      color: #333333;
+  }
+}
+
+.bottom-content {
+  padding-top: 5px;
+  grid-area: bottom-content;
+  grid-column: span 2;
+
+  .description {
+      font-size: 8px;
+      color: #222222;
+      line-height: normal;
+  }
+}
+
+.top-text, .bottom-content {
+    span {
+        display: block;
+        line-height: normal;
+    }
+}
+
+.root.clickable:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px rgba(8,139,255,0.7);
+    transition: box-shadow 0.3s ease-in-out;
+}

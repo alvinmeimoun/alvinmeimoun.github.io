@@ -1,0 +1,16 @@
+<div class="root">
+    <p class="section-title">Cursus académique</p>
+    <div class="item-list">
+        <app-license-item
+            *ngFor="let item of academicCurriculum"
+            [data]="item"
+        ></app-license-item>
+    </div>
+    <p class="section-title">Certifications</p>
+    <div class="item-list">
+        <app-license-item
+            *ngFor="let item of certifications"
+            [data]="item"
+        ></app-license-item>
+    </div>
+</div>
