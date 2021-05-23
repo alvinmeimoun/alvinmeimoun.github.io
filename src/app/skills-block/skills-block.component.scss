@@ -1,0 +1,39 @@
+.root {
+    background: #f2faff;
+    padding-bottom: 10px;
+}
+
+.languages-root, .frameworks-root {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.languages-root {
+    * {
+        margin-bottom: 5px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+.frameworks-root {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    * {
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    app-group-skill {
+        flex: 1 1 200px;
+    }
+}
+

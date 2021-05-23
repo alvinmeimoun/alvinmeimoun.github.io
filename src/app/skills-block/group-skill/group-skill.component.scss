@@ -1,0 +1,27 @@
+.root {
+    background-color: #dddddd99;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+}
+
+.title {
+    font-size: 15px;
+    border-bottom: 1px solid #999;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.content {
+    font-size: 10px;
+    padding: 8px;
+
+    li {
+        list-style-position: inside;
+        color: black;
+    }
+}

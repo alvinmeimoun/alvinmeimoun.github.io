@@ -1,0 +1,21 @@
+<div class="root">
+    <p class="section-title">Compétences</p>
+    <p class="subsection-title">Langages</p>
+
+    <div class="languages-root">
+        <app-prog-lang-skill name="Java"></app-prog-lang-skill>
+        <app-prog-lang-skill name="C#"></app-prog-lang-skill>
+        <app-prog-lang-skill name="TypeScript"></app-prog-lang-skill>
+        <app-prog-lang-skill name="JavaScript"></app-prog-lang-skill>
+        <app-prog-lang-skill name="Swift"></app-prog-lang-skill>
+    </div>
+
+    <p class="subsection-title">Frameworks et plateformes</p>
+
+    <div class="frameworks-root">
+        <app-group-skill 
+            *ngFor="let skill of skills"
+            [group]="skill"
+        ></app-group-skill>
+    </div>
+</div>

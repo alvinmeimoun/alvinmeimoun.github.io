@@ -7,6 +7,9 @@ import { NameBlockComponent } from './name-block/name-block.component';
 import { SocialIconComponent } from './name-block/social-icon/social-icon.component';
 import { LicensesBlockComponent } from './licenses-block/licenses-block.component';
 import { LicenseItemComponent } from './licenses-block/license-item/license-item.component';
+import { SkillsBlockComponent } from './skills-block/skills-block.component';
+import { ProgLangSkillComponent } from './skills-block/prog-lang-skill/prog-lang-skill.component';
+import { GroupSkillComponent } from './skills-block/group-skill/group-skill.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { LicenseItemComponent } from './licenses-block/license-item/license-item
     NameBlockComponent,
     SocialIconComponent,
     LicensesBlockComponent,
-    LicenseItemComponent
+    LicenseItemComponent,
+    SkillsBlockComponent,
+    ProgLangSkillComponent,
+    GroupSkillComponent
   ],
   imports: [
     BrowserModule,
