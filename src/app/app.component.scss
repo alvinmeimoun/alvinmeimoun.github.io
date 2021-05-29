@@ -6,6 +6,15 @@ $fixed-header-size: 50px;
     height: $fixed-header-size;
     width: 100%;
     background: black;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    color: white;
+
+    .name {
+        margin-left: 10px;
+        font-weight: 700;
+    }
 }
 .app-name-block {
     z-index: 101;
