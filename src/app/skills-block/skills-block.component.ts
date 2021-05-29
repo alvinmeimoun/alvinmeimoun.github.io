@@ -54,6 +54,14 @@ export class SkillsBlockComponent implements OnInit {
       groupTitle: "Outils Projet",
       skills: ["JIRA Software", "Gerrit", "Git"]
     },
+    {
+      groupTitle: "Langues",
+      skills: [
+        "Français (langue maternelle)",
+        "Anglais (niveau professionnel)",
+        "Arabe (débutant)"
+      ]
+    }
   ];
 
 }
