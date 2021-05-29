@@ -1,0 +1,20 @@
+<div class="root">
+    <div class="line-root">
+        <div class="point"></div>
+        <div class="line"></div>
+    </div>
+    <div class="content">
+        <div class="top-line">
+            <span class="company" [class.clickable]="experience.url" (click)="openLink(experience.url)">{{ experience.company }}&nbsp;</span>
+            <span class="period normal-text">{{ experience.period }}</span>
+            <span class="normal-text" *ngIf="experience.period && experience.location">,&nbsp;</span>
+            <span class="location normal-text">{{ experience.location }}</span>
+        </div>
+        <div class="second-line">
+            <span class="position">{{ experience.position }}</span>
+        </div>
+        <ul *ngIf="experience.lines && experience.lines.length > 0">
+            <li *ngFor="let line of experience.lines">{{ line }}</li>
+        </ul>
+    </div>
+</div>

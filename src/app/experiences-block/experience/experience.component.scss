@@ -1,0 +1,53 @@
+.root {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "line content";
+}
+
+.line-root { 
+    grid-area: line;
+
+    .point {
+        width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        border: 1px solid #2F528F;
+        background: #4472C4;
+        margin-left: auto;
+    }
+
+    .line {
+        margin-left: auto;
+        margin-right: 8.5px;
+        height: calc(100% - 18px);
+        width: 2px;
+        background: #4472C4;
+    }
+}
+
+.content {
+    grid-area: content;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+
+    .company {
+        font-weight: 700;
+
+        &.clickable {
+            cursor: pointer;
+        }
+
+        &.clickable:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .top-line {
+        font-size: 16px;
+        margin-top: -4px; // Here i know exactly what i do with this negative margin, i align text with point, and point must be on top of div to simulate git history style
+    }
+}

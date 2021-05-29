@@ -10,6 +10,8 @@ import { LicenseItemComponent } from './licenses-block/license-item/license-item
 import { SkillsBlockComponent } from './skills-block/skills-block.component';
 import { ProgLangSkillComponent } from './skills-block/prog-lang-skill/prog-lang-skill.component';
 import { GroupSkillComponent } from './skills-block/group-skill/group-skill.component';
+import { ExperiencesBlockComponent } from './experiences-block/experiences-block.component';
+import { ExperienceComponent } from './experiences-block/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { GroupSkillComponent } from './skills-block/group-skill/group-skill.comp
     LicenseItemComponent,
     SkillsBlockComponent,
     ProgLangSkillComponent,
-    GroupSkillComponent
+    GroupSkillComponent,
+    ExperiencesBlockComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
