@@ -22,7 +22,7 @@ export class ExperienceComponent implements OnInit {
 
 export class Experience {
   company!: string;
-  period!: string;
+  period?: string;
   location?: string = "";
   position?: string = "";
   url?: string = "";
