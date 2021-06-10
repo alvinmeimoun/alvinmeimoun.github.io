@@ -5,7 +5,7 @@
     </div>
     <div class="content">
         <div class="top-line">
-            <span class="company" [class.clickable]="experience.url" (click)="openLink(experience.url)">{{ experience.company }}&nbsp;</span>
+            <span class="company" [class.clickable]="experience.url" (click)="openLink(experience.url)">{{ experience.company }}</span>&nbsp;
             <span class="period normal-text">{{ experience.period }}</span>
             <span class="normal-text" *ngIf="experience.period && experience.location">,&nbsp;</span>
             <span class="location normal-text">{{ experience.location }}</span>
