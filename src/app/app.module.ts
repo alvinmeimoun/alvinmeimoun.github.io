@@ -12,6 +12,10 @@ import { ProgLangSkillComponent } from './skills-block/prog-lang-skill/prog-lang
 import { GroupSkillComponent } from './skills-block/group-skill/group-skill.component';
 import { ExperiencesBlockComponent } from './experiences-block/experiences-block.component';
 import { ExperienceComponent } from './experiences-block/experience/experience.component';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { LanguageService } from './language.service';
 
 @NgModule({
   declarations: [
@@ -28,9 +32,21 @@ import { ExperienceComponent } from './experiences-block/experience/experience.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    }),
   ],
-  providers: [],
+  providers: [LanguageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+  return new TranslateHttpLoader(http);
+}

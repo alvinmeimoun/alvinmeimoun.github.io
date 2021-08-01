@@ -11,9 +11,26 @@ $fixed-header-size: 50px;
     align-items: center;
     color: white;
 
+    .space {
+        flex-grow: 1;
+    }
+
     .name {
         margin-left: 10px;
         font-weight: 700;
+    }
+
+    .translate-root {
+        margin-right: 10px;
+
+        span {
+            margin-left: 5px;
+        }
+
+        span:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
     }
 }
 .app-name-block {

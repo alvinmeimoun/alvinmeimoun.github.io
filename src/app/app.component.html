@@ -1,7 +1,14 @@
 <div class="root">
   <div class="fixed-header">
     <div class="name">Alvin MEIMOUN</div>
+    <div class="space"></div>
+    <div class="translate-root">
+      <span (click)="languageService.changeLang('fr')">FR</span>
+      &nbsp;
+      <span (click)="languageService.changeLang('en')">EN</span>
+    </div>
   </div>
+
   <div class="scrollable-content">
     <app-name-block></app-name-block>
     <app-licenses-block></app-licenses-block>

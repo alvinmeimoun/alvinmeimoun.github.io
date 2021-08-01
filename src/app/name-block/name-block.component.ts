@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-name-block',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NameBlockComponent implements OnInit {
 
-  constructor() { }
+  constructor(public languageService: LanguageService) {
+
+  }
 
   ngOnInit(): void {
   }
