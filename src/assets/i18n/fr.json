@@ -32,5 +32,43 @@
             "lang_en": "Anglais (niveau professionnel)",
             "lang_ar": "Arabe (débutant)"
         }
+    },
+    "experiences": {
+        "title": "Parcours professionel",
+        "items": {
+            "self-taught": {
+                "company": "Expérience Autodidacte",
+                "line1": "2010 : Application mobile (Stop Cigarette) sur Android et Windows Phone 8.1. Application gagnante (4è position) du concours Nokia – SUPINFO 2012",
+                "line2": "2012 : Application Android (iControl iTunes) destinée à contrôler iTunes avec une IHM adaptée mobile et tablette",
+                "line3": "2013 : Mini-jeu de type Run&Jump réalisé avec libgdx",
+                "line4": "2015 – Aujourd’hui : Projet associatif, application de type bibliothèque numérique. Android (Java), iOS (Swift), Angular, Java, Spring, AWS"
+            },
+            "beepeers": {
+                "title": "Développeur Android",
+                "period": "Mai 2013 – Mai 2014",
+                "line1": "Implémentation du framework Android (propriétaire Beepeers)",
+                "line2": "Intégration (implémentation design spécifique et paramétrage des modules achetés par les clients)"
+            },
+            "capgemini": {
+                "title": "Ingénieur logiciel",
+                "period": "Mai 2014 – Mars 2018",
+                "line1": "Développement autonome d’une application iOS, Android, Windows Phone (C#, Java, Swift) pour un organisme de jeux sportifs local à Sophia-Antipolis (France)",
+                "line2": "Développement d’applications (C#, ASP.NET MVC) et d’une application d’audit sur Android (Java) pour un ascensoriste",
+                "line3": "Développements sur une solution GDS (Train) dans une équipe Agile (Java, Aria Templates)",
+                "line4": "TMA pour un système de gestion hôtelière (Java / Struts / .NET WPF / Delphi)",
+                "line5": "Développement d’un lot d’applications ASP.NET MVC dans une équipe agile ainsi qu’une application tablette Windows 8.1 destiné à la gestion des incidents pour une société de nettoyage"
+            },
+            "mytower": {
+                "title": "Ingénieur étude et développement",
+                "period": "Mars 2018 – Aujourd'hui",
+                "location": "Casablanca (Maroc)",
+                "line1": "Développeur et leader technique sur la solution MyTower (Angular, Spring)",
+                "line2": "Implémentation d’algorithmes d’optimisation (type NP et VRP avec OptaPlanner)",
+                "line3": "Scrum Master, gestion d’équipe Agile, rédaction User Story, configuration Jira",
+                "line4": "Analyse technico-fonctionnelle des besoins des clients de la solution (tels que Airbus, Chanel)",
+                "line5": "Développement autonome d’un plugin Outlook destiné à l’extraction et au découpage des pièces jointes (C#, WPF, VSTO)",
+                "line6": "Gestion des déploiements et intégration continue (Jenkins, Docker, Kubernetes, Gerrit, SonarQube)"
+            }
+        }
     }
 }
