@@ -1,5 +1,36 @@
 {
     "intro": {
-        "title": "Ingénieur logiciel / Développeur full-stack"
+        "title": "Ingénieur logiciel / Développeur full-stack",
+        "details_1": "Compétences principales : Java / Spring / Angular",
+        "details_2": "Expérience en .NET et mobilité"
+    },
+    "license": {
+        "academic": "Cursus académique",
+        "certifications": "Certifications",
+        "training_period": "Formation",
+        "degree_obtention_date": "Diplômé en",
+        "items": {
+            "academic": {
+                "1": {
+                    "title": "Baccalauréat",
+                    "desc": "Sciences et Technologies de l'Ingénieur (STI) Génie électronique",
+                    "company": "Ministère de l'éducation nationale (France)"
+                }
+            }
+        }
+    },
+    "skills": {
+        "title": "Compétences",
+        "programming_languages": "Languages de programmation",
+        "framework_platforms": "Frameworks et plateformes",
+        "items": {
+            "quality": "Qualité",
+            "artificial_intelligence": "Intelligence Artificielle",
+            "project_tools": "Outils Projets",
+            "languages": "Langues",
+            "lang_fr": "Français (langue maternelle)",
+            "lang_en": "Anglais (niveau professionnel)",
+            "lang_ar": "Arabe (débutant)"
+        }
     }
 }

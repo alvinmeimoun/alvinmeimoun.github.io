@@ -1,5 +1,35 @@
 {
     "intro": {
-        "title": "Software engineer / Full-stack developer"
+        "title": "Software engineer / Full-stack developer",
+        "details_1": "Core competency : Java / Spring / Angular",
+        "details_2": "Experiences with .NET and mobility"
+    },
+    "license": {
+        "academic": "Education",
+        "certifications": "Certifications",
+        "training_period": "Training period",
+        "degree_obtention_date": "Graduated in",
+        "items": {
+            "academic": {
+                "1": {
+                    "title": "Baccalaureate",
+                    "desc": "Engineering Sciences and Technologies (STI), electronics specialization",
+                    "company": "Ministry of Education (France)"
+                }
+            }
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "programming_languages": "Programming languages",
+        "framework_platforms": "Frameworks & platforms","items": {
+            "quality": "Quality",
+            "artificial_intelligence": "Artificial intelligence",
+            "project_tools": "Project tools",
+            "languages": "Languages",
+            "lang_fr": "French (mother tongue)",
+            "lang_en": "English (professional)",
+            "lang_ar": "Arabic (beginner)"
+        }
     }
 }

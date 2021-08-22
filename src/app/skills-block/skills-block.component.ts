@@ -31,7 +31,7 @@ export class SkillsBlockComponent implements OnInit {
       skills: ["JUnit", "NUnit", "Selenium", "Mockito", "REST Assured"]
     },
     {
-      groupTitle: "Qualité",
+      groupTitle: "skills.items.quality",
       skills: ["Jenkins", "SonarQube"]
     },
     {
@@ -47,19 +47,19 @@ export class SkillsBlockComponent implements OnInit {
       skills: ["Docker", "Kubernetes", "AWS", "Linux", "Windows Server"]
     },
     {
-      groupTitle: "Intelligence Artificielle",
+      groupTitle: "skills.items.artificial_intelligence",
       skills: ["OptaPlanner"]
     },
     {
-      groupTitle: "Outils Projet",
+      groupTitle: "skills.items.project_tools",
       skills: ["JIRA Software", "Gerrit", "Git"]
     },
     {
-      groupTitle: "Langues",
+      groupTitle: "skills.items.languages",
       skills: [
-        "Français (langue maternelle)",
-        "Anglais (niveau professionnel)",
-        "Arabe (débutant)"
+        "skills.items.lang_fr",
+        "skills.items.lang_en",
+        "skills.items.lang_ar"
       ]
     }
   ];

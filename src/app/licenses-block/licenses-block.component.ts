@@ -15,12 +15,12 @@ export class LicensesBlockComponent implements OnInit {
 
   academicCurriculum: Array<LicenseItem> = [
     {
-      title: "Baccalauréat",
+      title: "license.items.academic.1.title",
       curriculumPeriod: "2008-2012",
       graduationDate: "2012",
-      description: "Sciences et Technologies de l'Ingénieur (STI) Génie électronique",
+      description: "license.items.academic.1.desc",
       logo: "companies/fr-en.png",
-      company: "Ministère de l'éducation nationale (France)",
+      company: "license.items.academic.1.company",
       location: "Nice, France",
       link: "https://eduscol.education.fr/sti/formations/bac-technologique-sti-genie-electronique-abroge-juin-2012"
     },

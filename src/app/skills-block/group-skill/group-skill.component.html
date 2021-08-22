@@ -1,6 +1,6 @@
 <div class="root">
-    <div class="title">{{ group.groupTitle }}</div>
+    <div class="title">{{ group.groupTitle | translate }}</div>
     <ul class="content">
-        <li class="skill" *ngFor="let skill of group.skills">{{skill}}</li>
+        <li class="skill" *ngFor="let skill of group.skills">{{ skill | translate }}</li>
     </ul>
 </div>
