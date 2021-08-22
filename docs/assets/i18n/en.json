@@ -1,0 +1,73 @@
+{
+    "intro": {
+        "title": "Software engineer / Full-stack developer",
+        "details_1": "Core competency : Java / Spring / Angular",
+        "details_2": "Experiences with .NET and mobility"
+    },
+    "license": {
+        "academic": "Education",
+        "certifications": "Certifications",
+        "training_period": "Training period",
+        "degree_obtention_date": "Graduated in",
+        "items": {
+            "academic": {
+                "1": {
+                    "title": "Baccalaureate",
+                    "desc": "Engineering Sciences and Technologies (STI), electronics specialization",
+                    "company": "Ministry of Education (France)"
+                }
+            }
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "programming_languages": "Programming languages",
+        "framework_platforms": "Frameworks & platforms","items": {
+            "quality": "Quality",
+            "artificial_intelligence": "Artificial intelligence",
+            "project_tools": "Project tools",
+            "languages": "Languages",
+            "lang_fr": "French (mother tongue)",
+            "lang_en": "English (professional)",
+            "lang_ar": "Arabic (beginner)"
+        }
+    },
+    "experiences": {
+        "title": "Professional experience",
+        "items": {
+            "self-taught": {
+                "company": "Self-taught experience",
+                "line1": "2010 : Mobile application (Stop Cigarette) developed for Android and Windows Phone 8.1. Fourth winner of challenge Nokia – SUPINFO 2012",
+                "line2": "2012 : Android application (iControl iTunes) designed to control iTunes with an HMI optimized for tablet and another for mobile",
+                "line3": "2013 : Run&Jump mini-game developed with libgdx",
+                "line4": "2015 - Now : Associative project. Online library application. Android (Java), iOS (Swift), Angular, Java, Spring, AWS"
+            },
+            "beepeers": {
+                "title": "Android developer",
+                "period": "May 2013 – May 2014",
+                "line1": "Developments on the proprietary (Beepeers) Android framework",
+                "line2": "Customer graphical design integration and configuration of modules purchased by the customer"
+            },
+            "capgemini": {
+                "title": "Software engineer",
+                "period": "May 2014 – March 2018",
+                "line1": "Self-directed development of a native mobile application iOS, Android, Windows Phone (C#, Java, Swift) for a local sports games organization based at Sophia-Antipolis (France)",
+                "line2": "Development of multiple webapps (C#, ASP.NET MVC) and an Android (Java) application for an elevator provider",
+                "line3": "Developments on a GDS solution (Train) with an Agile context (Java, Aria Templates)",
+                "line4": "TMA of a Property Management System solution (Java / Struts / .NET WPF / Delphi)",
+                "line5": "Development of an ASP.NET MVC application and a Windows 8.1 tablet application with an Agile context for a cleaning company designed to manage incidents"
+            },
+            "mytower": {
+                "title": "Design and development engineer",
+                "period": "March 2018 – Now",
+                "location": "Casablanca (Morocco)",
+                "line1": "Developer and technical lead on the MyTower software solution (Angular, Spring)",
+                "line2": "Implementation of optimization algorithms (NP and VRP using OptaPlanner)",
+                "line3": "Scrum Master, Agile team management, User Story writing, Jira workflow configuration",
+                "line4": "Technical analysis and integration of customer requirement (such as Airbus, Chanel)",
+                "line5": "Self-directed development of an Outlook plugin designed to extract mail attachments and split PDF (C#, WPF, VSTO)",
+                "line6": "Deployments management and continuous integration (Jenkins, Docker, Kubernetes, Gerrit, SonarQube)"
+            }
+        }
+    }
+}
